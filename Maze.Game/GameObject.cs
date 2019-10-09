@@ -1,30 +1,50 @@
-﻿using System;
+﻿using Maze.Implementation.Game;
+using Maze.Interface.Game;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Maze.Game
 {
-    public class GameObject:Entity.Data.Element, Interface.Game.IObjectControl
+    public class GameObject:Entity.Data.Element, IObjectControl
     {
-        Interface.Game.IObjectControl control = null;
-        public GameObject(Interface.Game.IObjectControl _control)
+        IEngine engine = null;
+        public GameObject( IEngine _engine )
         {
-            control = _control;
+            engine = _engine;
         }
 
-        public void HandleEvent()
+        public virtual void BeforeUpdate()
         {
-            throw new NotImplementedException();
+            engine.ClearSomewhere( this );
         }
 
-        public void Render()
+        ConsoleKeyInfo? key = null;
+        bool need_render = false;
+
+        public virtual void HandleEvent()
         {
-            throw new NotImplementedException();
+            key = engine.GetKey();
         }
 
-        public void Update()
+        public virtual void Render()
         {
-            throw new NotImplementedException();
+            engine.RenderObject( this );
+        }
+
+        public virtual void Update()
+        {
+            if( key == null )
+            {
+                return;
+            }
+
+
+        }
+
+        public virtual int Velocity
+        {
+            get;set;
         }
     }
 }

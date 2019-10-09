@@ -7,9 +7,17 @@ namespace Maze.Entity.Data
 {
     public class Element
     {
-        public Point Position { get; set; }
+        public Point Position
+        {
+            get; set;
+        }
 
-        public char Image { get; set; } = ' ';
+        public Size Size
+        {
+            get; set;
+        }
+
+        public string Image { get; set; } = "  ";
 
 
     }

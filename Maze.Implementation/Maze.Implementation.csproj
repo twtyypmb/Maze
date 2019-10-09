@@ -5,7 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Game\" />
+    <ProjectReference Include="..\Maze.Entity\Maze.Entity.csproj" />
+    <ProjectReference Include="..\Maze.Interface\Maze.Interface.csproj" />
   </ItemGroup>
 
 </Project>

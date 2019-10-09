@@ -6,8 +6,15 @@ namespace Maze.Interface.Game
 {
     public interface IObjectControl
     {
-        void HandleEvent();
+
+
+        void HandleEvent( ConsoleKeyInfo? key );
+
+        void BeforeUpdate();
+
+
         void Update();
+
         void Render();
     }
 }
