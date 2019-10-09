@@ -5,6 +5,16 @@ VisualStudioVersion = 16.0.29318.209
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maze.Main", "Maze.Main\Maze.Main.csproj", "{FAD84C0A-4855-4734-8DBB-787A412A27C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maze.Interface", "Maze.Interface\Maze.Interface.csproj", "{DC063D9C-0A3E-4F72-82BF-51E6D377258B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maze.Entity", "Maze.Entity\Maze.Entity.csproj", "{80607A10-B710-47C8-A255-2835FCACF4E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maze.Utils", "Maze.Utils\Maze.Utils.csproj", "{44FBF977-0123-4407-958E-50D0BE496B64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maze.Implementation", "Maze.Implementation\Maze.Implementation.csproj", "{4E39704F-AB40-4F91-B733-B2D914FFDD33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maze.Game", "Maze.Game\Maze.Game.csproj", "{A531B596-17AC-473E-A429-D70BBA5A295D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,26 @@ Global
 		{FAD84C0A-4855-4734-8DBB-787A412A27C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAD84C0A-4855-4734-8DBB-787A412A27C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAD84C0A-4855-4734-8DBB-787A412A27C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC063D9C-0A3E-4F72-82BF-51E6D377258B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC063D9C-0A3E-4F72-82BF-51E6D377258B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC063D9C-0A3E-4F72-82BF-51E6D377258B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC063D9C-0A3E-4F72-82BF-51E6D377258B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80607A10-B710-47C8-A255-2835FCACF4E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80607A10-B710-47C8-A255-2835FCACF4E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80607A10-B710-47C8-A255-2835FCACF4E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80607A10-B710-47C8-A255-2835FCACF4E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44FBF977-0123-4407-958E-50D0BE496B64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44FBF977-0123-4407-958E-50D0BE496B64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44FBF977-0123-4407-958E-50D0BE496B64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44FBF977-0123-4407-958E-50D0BE496B64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E39704F-AB40-4F91-B733-B2D914FFDD33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E39704F-AB40-4F91-B733-B2D914FFDD33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E39704F-AB40-4F91-B733-B2D914FFDD33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E39704F-AB40-4F91-B733-B2D914FFDD33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A531B596-17AC-473E-A429-D70BBA5A295D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A531B596-17AC-473E-A429-D70BBA5A295D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A531B596-17AC-473E-A429-D70BBA5A295D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A531B596-17AC-473E-A429-D70BBA5A295D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
